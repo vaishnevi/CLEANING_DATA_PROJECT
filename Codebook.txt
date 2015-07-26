@@ -1,0 +1,45 @@
+Code book 
+=================
+
+The features selected for this tidy database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
+
+These signals were used to estimate variables of the feature vector for each pattern:  
+'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+
+tBodyAcc-XYZ
+tGravityAcc-XYZ
+
+
+The set of variables that were estimated from these signals are: 
+
+mean(): Mean value
+std(): Standard deviation
+
+
+The variable names used in the data set are the following:
+
+1. Activity_ID : Denotes activity performed during data collection: WALKING,STANDING, SITTING, LAYING, WALKING UPSTAIRS AND WALKING DOWNSTAIRS
+
+2. Subject_ID: ID of the subject. A number from 1 to 30.
+
+3. tBodyAcc.mean...X : Mean of body acceleration in X axial direction
+4. tBodyAcc.mean...Y : Mean of body acceleration in Y axial direction
+5. tBodyAcc.mean...Z : Mean of body acceleration in Z axial direction
+6. tBodyAcc.std...X : Standard Deviation of body acceleration in X axial direction
+7. tBodyAcc.std...Y : Standard Deviation of body acceleration in Y axial direction
+8. tBodyAcc.std...Z : Standard Deviation of body acceleration in Z axial direction
+9. tGravityAcc.mean...X : Mean of acceleration due to gravity in X direction
+10. tGravityAcc.mean...Y : Mean of acceleration due to gravity in Y direction
+11. tGravityAcc.mean...Z : Mean of acceleration due to gravity in Z direction
+12. tBodyGyro.mean...X : Gyro sigmal mean in X direction
+13. tBodyGyro.mean...Y : Gyro sigmal mean in Y direction
+14. tBodyGyro.mean...Z :Gyro sigmal mean in Z direction
+15. tGravityAcc.std...X : Standard deviation of acceleration due to gravity in X direction
+10. tGravityAcc.std...Y : Standard deviation of acceleration due to gravity in Y direction
+11. tGravityAcc.std...Z : standard deviation of acceleration due to gravity in Z direction
+12. tBodyGyro.std...X : Gyro sigmal std dev in X direction
+13. tBodyGyro.std...Y : Gyro sigmal std dev in Y direction
+14. tBodyGyro.std...Z :Gyro sigmal std dev in Z direction
+
+
+
